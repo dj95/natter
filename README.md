@@ -16,6 +16,10 @@
 - staticcheck (✅ tests/linting)
 - gosec (✅ tests/linting)
 
+*or*
+
+- nix
+
 
 ## 🔧 Usage
 
