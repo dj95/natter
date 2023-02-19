@@ -7,6 +7,7 @@ import (
 	"github.com/google/gopacket/pcap"
 )
 
+// OnInterface Start listening on the specified interface with the given filter
 func OnInterface(intrfc, filter string) {
 	handle, err := pcap.OpenLive(intrfc, 1600, false, pcap.BlockForever)
 
