@@ -42,6 +42,7 @@ ifeq ($(UNAME), Linux)
 		CC=clang $(GOTEST) -v -msan -short $(TEST_FILES)
 endif
 		staticcheck $(TEST_FILES)
+		gosec $(TEST_FILES)
 
 clean:
 		$(GOCLEAN)
